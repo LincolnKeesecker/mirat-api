@@ -1,0 +1,408 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Lincoln Keesecker",
+      "email": "lincoln@keesecker.com",
+      "isStaff": true,
+      "password": "lk1"
+    },
+    {
+      "id": 2,
+      "fullName": "Alex Bishop",
+      "email": "alex@bishop.com",
+      "isStaff": false,
+      "password": "ab1"
+    },
+    {
+      "id": 3,
+      "fullName": "Conor Getty",
+      "email": "conor@getty.com",
+      "isStaff": false,
+      "password": "cg1"
+    },
+    {
+      "id": 4,
+      "fullName": "Chris Brannon",
+      "email": "chris@brannon.com",
+      "isStaff": true,
+      "password": "cb1"
+    },
+    {
+      "id": 5,
+      "fullName": "Jeremiah Fleta",
+      "email": "jeremiah@fleta.com",
+      "isStaff": true,
+      "password": "jf1"
+    },
+    {
+      "id": 6,
+      "fullName": "Marisa Coke",
+      "email": "marisa@coke.com",
+      "isStaff": true,
+      "password": "mc1"
+    },
+    {
+      "id": 7,
+      "fullName": "Kyle Simmons",
+      "email": "kyle@simmons.com",
+      "isStaff": false,
+      "password": "ks1"
+    },
+    {
+      "id": 8,
+      "fullName": "Shelby Dalton",
+      "email": "shelby@dalton.com",
+      "isStaff": false,
+      "password": "sd1"
+    },
+    {
+      "id": 9,
+      "fullName": "Adam Riggs",
+      "email": "adam@riggs.com",
+      "isStaff": false,
+      "password": "ar1"
+    },
+    {
+      "id": 10,
+      "fullName": "Amanda Asgari-Rad",
+      "email": "amanda@asgari-rad.com",
+      "isStaff": false,
+      "password": "aa1"
+    },
+    {
+      "id": 11,
+      "fullName": "Peter Schnitzer",
+      "email": "peter@schnitzer.com",
+      "isStaff": false,
+      "password": "ps1"
+    },
+    {
+      "id": 12,
+      "fullName": "John Brady",
+      "email": "john@brady.com",
+      "isStaff": false,
+      "password": "jb1"
+    },
+    {
+      "id": 13,
+      "fullName": "Courtney Gulledge",
+      "email": "courtney@gulledge.com",
+      "isStaff": false,
+      "password": "cg1"
+    },
+    {
+      "id": 14,
+      "fullName": "Laura Furnivall",
+      "email": "laura@furnivall.com",
+      "isStaff": false,
+      "password": "lf1"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "accountNumber": 1001,
+      "userId": 2,
+      "locationId": 1
+    },
+    {
+      "id": 2,
+      "accountNumber": 1002,
+      "userId": 3,
+      "locationId": 2
+    },
+    {
+      "id": 3,
+      "accountNumber": 1003,
+      "userId": 7,
+      "locationId": 3
+    },
+    {
+      "id": 4,
+      "accountNumber": 1004,
+      "userId": 8,
+      "locationId": 4
+    },
+    {
+      "id": 5,
+      "accountNumber": 1005,
+      "userId": 9,
+      "locationId": 5
+    },
+    {
+      "id": 6,
+      "accountNumber": 1006,
+      "userId": 10,
+      "locationId": 6
+    },
+    {
+      "id": 7,
+      "accountNumber": 1007,
+      "userId": 11,
+      "locationId": 7
+    },
+    {
+      "id": 8,
+      "accountNumber": 1008,
+      "userId": 12,
+      "locationId": 8
+    },
+    {
+      "id": 9,
+      "accountNumber": 1009,
+      "userId": 13,
+      "locationId": 9
+    },
+    {
+      "id": 10,
+      "accountNumber": 1010,
+      "userId": 14,
+      "locationId": 10
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "locationName": "Sinkers Beverages",
+      "productId": 1,
+      "address": "3308 Gallatin Pike"
+    },
+    {
+      "id": 2,
+      "locationName": "Old Hickory Wine & Spirits",
+      "productId": 1,
+      "address": "3838 Old Hickory Blvd"
+    },
+    {
+      "id": 3,
+      "locationName": "Mickeys",
+      "productId": 1,
+      "address": "2907 Gallatin Pike"
+    },
+    {
+      "id": 4,
+      "locationName": "Hubba Hubba Tiki Tonk",
+      "productId": 1,
+      "address": "922 Main St"
+    },
+    {
+      "id": 5,
+      "locationName": "Lucky Duck Lounge",
+      "productId": 1,
+      "address": "2512 Gallatin Ave"
+    },
+    {
+      "id": 6,
+      "locationName": "Village Pub and Beer Garden",
+      "productId": 1,
+      "address": "1308 McGavock Pk"
+    },
+    {
+      "id": 7,
+      "locationName": "Neighbors of Sylvan Park",
+      "productId": 1,
+      "address": "4425 Murphy Rd"
+    },
+    {
+      "id": 8,
+      "locationName": "No Quarter",
+      "productId": 1,
+      "address": "922 Main St"
+    },
+    {
+      "id": 9,
+      "locationName": "Nashville Urban Winery",
+      "productId": 1,
+      "address": "715 Main St"
+    },
+    {
+      "id": 10,
+      "locationName": "Providence Wine & Spirits",
+      "productId": 1,
+      "address": "1986 Providence Way"
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "userId": 1
+    },
+    {
+      "id": 2,
+      "userId": 4
+    },
+    {
+      "id": 3,
+      "userId": 5
+    },
+    {
+      "id": 4,
+      "userId": 6
+    }
+  ],
+  "managedLocations": [
+    {
+      "id": 1,
+      "locationId": 1,
+      "adminId": 3
+    },
+    {
+      "id": 2,
+      "locationId": 2,
+      "adminId": 3
+    },
+    {
+      "id": 3,
+      "locationId": 3,
+      "adminId": 2
+    },
+    {
+      "id": 4,
+      "locationId": 4,
+      "adminId": 1
+    },
+    {
+      "id": 5,
+      "locationId": 5,
+      "adminId": 4
+    },
+    {
+      "id": 6,
+      "locationId": 6,
+      "adminId": 3
+    },
+    {
+      "id": 7,
+      "locationId": 7,
+      "adminId": 4
+    },
+    {
+      "id": 8,
+      "locationId": 8,
+      "adminId": 2
+    },
+    {
+      "id": 9,
+      "locationId": 9,
+      "adminId": 2
+    },
+    {
+      "id": 10,
+      "locationId": 10,
+      "adminId": 1
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "productId": 2,
+      "quantityPurchased": 20,
+      "datePurchased": "Mon May 01 2023"
+    },
+    {
+      "id": 2,
+      "customerId": 2,
+      "productId": 2,
+      "quantityPurchased": 20,
+      "datePurchased": "Fri May 12 2023"
+    },
+    {
+      "id": 3,
+      "customerId": 3,
+      "productId": 2,
+      "quantityPurchased": 35,
+      "datePurchased": ""
+    },
+    {
+      "id": 4,
+      "customerId": 4,
+      "productId": 2,
+      "quantityPurchased": 75,
+      "datePurchased": ""
+    },
+    {
+      "id": 5,
+      "customerId": 5,
+      "productId": 2,
+      "quantityPurchased": 55,
+      "datePurchased": ""
+    },
+    {
+      "id": 6,
+      "customerId": 6,
+      "productId": 2,
+      "quantityPurchased": 15,
+      "datePurchased": ""
+    },
+    {
+      "id": 7,
+      "customerId": 7,
+      "productId": 2,
+      "quantityPurchased": 10,
+      "datePurchased": ""
+    },
+    {
+      "id": 8,
+      "customerId": 8,
+      "productId": 2,
+      "quantityPurchased": 60,
+      "datePurchased": ""
+    },
+    {
+      "id": 9,
+      "customerId": 9,
+      "productId": 2,
+      "quantityPurchased": 20,
+      "datePurchased": ""
+    },
+    {
+      "id": 10,
+      "customerId": 10,
+      "productId": 2,
+      "quantityPurchased": 100,
+      "datePurchased": ""
+    },
+    {
+      "customerId": 2,
+      "productId": 2,
+      "quantityPurchased": 10,
+      "id": 11,
+      "datePurchased": ""
+    },
+    {
+      "customerId": 2,
+      "productId": 2,
+      "quantityPurchased": 20,
+      "id": 12,
+      "datePurchased": ""
+    }
+  ],
+  "approvedPurchases": [
+    {
+      "id": 10,
+      "customerId": 10,
+      "productId": 2,
+      "quantityPurchased": 100,
+      "datePurchased": "04/25/2023"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Mirat Rum",
+      "size": "50ml"
+    },
+    {
+      "id": 2,
+      "name": "Mirat Rum",
+      "size": "750ml"
+    },
+    {
+      "id": 3,
+      "name": "Mirat Rum",
+      "size": "1L"
+    }
+  ]
+}
